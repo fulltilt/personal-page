@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>	
+	<body>	
+		<h4>User Login:</h4>
+		<div class="container">
+			<form method="post">
+				<label>Name: </label>
+				<input type="text" name="username" value="{{username}}"><br/>
+				<div style="color: red">{{usernameError}}</div>
+				
+				<label>Password:</label> 
+				<input type="text" name="password"><br/>
+				<div style="color: red">{{passwordError}}</div>
+				
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</body>
+</html>	
